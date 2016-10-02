@@ -1,0 +1,83 @@
+@import 'https://fonts.googleapis.com/css?family=Space+Mono';
+
+.intro {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    color: white;
+    background: url("../img/intro-bg.jpg") no-repeat bottom center scroll;
+    background-color: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    .intro-body {
+        display: table-cell;
+        vertical-align: middle;
+        .brand-heading {
+            font-size: 40px;
+        }
+        .intro-text {
+            font-size: 18px;
+        }
+    }
+    @media(min-width:768px) {
+        height: 100%;
+        padding: 0;
+        .intro-body {
+            .brand-heading {
+                font-size: 100px;
+            }
+            .intro-text {
+                font-size: 26px;
+            }
+        }
+    }
+}
+.portfolio-section {
+    height:1000px;
+    width: 100%;
+    padding: 50px 0;
+    color: white;
+    background: url(../img/air.jpg) no-repeat center center scroll;
+    background-color: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.portfolio-text{
+    color:white;
+}
+#footer{
+    color:white;
+    font-size: 12px
+}
+p{
+    font-family: "Space Mono", Helvetica, Arial, sans-serif;
+
+}
+.intro{
+/*    border: 1px solid green;
+*/    height:100%;
+
+}
+#about{
+    height:100%;
+    padding:0;
+    padding:15%;
+/*    border:1px solid blue;    
+*/}
+#portfolio{
+    padding:0;
+    padding-top:5%;
+/*    border:1px solid red;
+*/}
+.fa-angle-double-down{
+    color:#42DCA3;
+}
+a{
+    color:#42DCA3;
+}
